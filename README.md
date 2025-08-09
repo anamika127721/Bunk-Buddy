@@ -31,18 +31,13 @@ It provides a tongue-in-cheek “attendance management” system that doesn’t 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- HTML, CSS, JAVASCRIPT
+- Vs Code, Git Hub
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+
 
 ### Implementation
-For Software:
+For Software: Client-User website
 # Installation
 [commands]
 
@@ -51,57 +46,72 @@ For Software:
 
 ### Project Documentation
 For Software:
+1. Project Overview
+The Sassy Attendance Advisor is a playful, overdramatic web tool that calculates how many more classes you can bunk, tracks your attendance history, and—instead of encouraging responsible habits—cheers you on to skip beyond the safe limit. It roasts you for attending, celebrates your absences, and gamifies bunking with fake excuses, sarcastic weather-style forecasts, and bizarre achievements.
+
+2. Problem Statement
+Students often struggle to balance their attendance between staying above the minimum required percentage and living their best "I’ll do it tomorrow" life. But for the truly adventurous, even the safe limit feels restrictive. There’s no tool that encourages irresponsible bunking while still tracking it with mathematical precision.
+
+3. Solution
+This project provides an “attendance management” platform that not only tracks safe bunkable classes but also pushes you to cross the threshold. It delivers:
+
+Real-time safe bunk limit calculations.
+
+Roasting, sarcasm, and ironic motivation for attending class.
+
+Gamification of skipping through badges, streaks, and humorous milestones.
+
+Predictive “last possible bunk date” and “bunk forecast” reports.
+
+4. Core Features (Actually Useful)
+Safe Bunk Calculator – Shows exactly how many more classes you can skip before hitting danger.
+
+Attendance Tracker – Logs attended and bunked classes with dates.
+
+Threshold Prediction – Predicts the last possible day you can bunk without total doom.
+
+5. Fun Features (Completely Unnecessary but Essential)
+Excuse Generator – Creates absurd reasons for your absence:
+
+“My bed wouldn’t let me go.”
+
+“Attending an emergency staring contest with the ceiling.”
+
+Bunk Forecast – Weather-style updates:
+
+“Today’s bunk chance: 92%. Expect heavy Netflix showers.”
+
+Attendance Mood Analyzer – Labels you based on bunk streaks:
+
+“Ghost of the Classroom”
+
+“Disappointment to Education”
+
+Achievement System – Unlock sarcastic badges:
+
+Long Weekend Warrior – Bunked a Monday.
+
+Bunk Streak God – Skipped 5 classes in a row.
+
+Bunk Alarm – Push notifications that guilt-trip you for going to class.
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="1920" height="1020" alt="Screenshot 2025-08-09 065657" src="https://github.com/user-attachments/assets/f76bcf22-cb9b-493f-b49d-c0a6ad57f806" />
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img width="1920" height="1020" alt="Screenshot 2025-08-09 065632" src="https://github.com/user-attachments/assets/3f2ced06-7ed1-4617-9a0e-d2eefb452f0d" />
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+<img width="1920" height="1020" alt="Screenshot 2025-08-09 065509" src="https://github.com/user-attachments/assets/1a96ffbc-18d4-4167-8274-b7feb131a98e" />
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
 
 # Additional Demos
-[Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+Website-https://github.com/anamika127721/Bunk-Buddy
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
 
 ![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
 ![Static Badge](https://img.shields.io/badge/UselessProjects--25-25?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
+
 
 
