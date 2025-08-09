@@ -1,0 +1,105 @@
+<!-- ==== PAGE 4 : DASHBOARD ==== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BunkBuddy Dashboard</title>
+<link rel="stylesheet" href="dashboard.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="dashboard-header">
+  <div class="user-info">
+    <span id="userName">abc</span>
+  </div>
+  <div class="logo">
+    <h1>BunkBuddy</h1>
+  </div>
+</header>
+
+<main class="dashboard-main">
+  <!-- Message Box -->
+  <section class="message-box" id="messageBox">
+    Class: where boredom meets opportunity
+  </section>
+
+  <!-- Bunk Percentage + Highest Bunk Subject -->
+  <section class="stats-box">
+    <div class="bunk-percentage">
+      <h2>Bunk %</h2>
+      <div id="bunkTracker">0%</div>
+    </div>
+    <div class="highest-bunk">
+      <h2>Highest Bunk Subject</h2>
+      <p id="highestBunkSubject">Maths</p>
+    </div>
+  </section>
+
+
+
+  <!-- 🎉 Fun Zone -->
+<header>🎉 Fun Zone</header>
+
+<div class="container">
+
+    <!-- Excuse Generator -->
+    <div class="card">
+        <h2>😂 Excuse Generator</h2>
+        <p id="excuse">Click below for a new excuse!</p>
+        <button onclick="generateExcuse()">Generate Excuse</button>
+    </div>
+
+    <!-- Bunk Forecast -->
+    <div class="card">
+        <h2>🌤 Bunk Forecast</h2>
+        <p id="forecast">Calculating today's vibes...</p>
+        <button onclick="bunkForecast()">Check Forecast</button>
+    </div>
+
+    <!-- Mood Analyzer -->
+    <div class="card">
+        <h2>😎 Mood Analyzer</h2>
+        <p id="mood">Let's find out your mood...</p>
+        <button onclick="analyzeMood()">Analyze Mood</button>
+    </div>
+
+    <!-- Achievement Badges -->
+    <div class="card">
+        <h2>🏆 Achievement Badges</h2>
+        <div class="badges" id="badges">
+            <span class="badge">🎯 Rookie Bunker</span>
+            <span class="badge">🔥 Long Weekend Warrior</span>
+            <span class="badge">👻 Ghost of Classroom</span>
+        </div>
+    </div>
+
+</div>
+
+
+  
+</main>
+
+<!-- Bottom Navigation -->
+<footer class="bottom-nav">
+  <div class="nav-item" onclick="window.location.href='subject.html'">📊 Subject Bunk</div>
+  <div class="nav-item" onclick="goToEditTimetable()">✏️ Edit Timetable</div>
+  <div class="nav-item" onclick="goToAcademicCalendar()">📅 Academic Calendar</div>
+  <div class="nav-item" onclick="showSubjectBunk()">📚 Subjects</div>
+</footer>
+
+<script src="dashboard.js">
+    // your existing dashboard code here...
+  
+    // === Display saved bunk percentage ===
+    document.addEventListener("DOMContentLoaded", () => {
+      const bunkTrackerEl = document.getElementById("bunkTracker");
+      if (bunkTrackerEl) {
+        const savedBunk = localStorage.getItem("bunkPercentage") || 0;
+        bunkTrackerEl.textContent = savedBunk + "%";
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bunk Buddy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Page 1: Login -->
+<div id="page1" class="page">
+    <h2>Login</h2>
+    <input type="text" id="loginUsername" placeholder="Username">
+    <input type="password" id="loginPassword" placeholder="Password">
+    <button onclick="login()">Submit</button>
+    <p class="link" onclick="goToPage(2)">New User</p>
+</div>
+
+<!-- Page 2: Signup -->
+<div id="page2" class="page">
+    <h2>Start bunking smarter</h2>
+    <input type="text" id="signupUsername" placeholder="Username">
+    <input type="password" id="signupPassword" placeholder="Password">
+    <input type="text" id="branch" placeholder="Branch">
+    <input type="text" id="semester" placeholder="Semester">
+    <select id="gender">
+        <option value="">Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+    </select>
+    <button id="signupBtn">Next</button>
+</div>
+
+<!-- Page 3: Timetable -->
+<div id="page3" class="page">
+    <h2>Set up your timetable</h2>
+    <select id="university">
+        <option>KTU</option>
+        <option>Anna University</option>
+        <option>Calcutta University</option>
+        <option>Amity University</option>
+        <option>Calicut University</option>
+    </select>
+    <div id="timetableGrid" class="grid"></div>
+    <button onclick="submitTimetable()">Submit</button>
+</div>
+
+<!-- Page 4: Dashboard -->
+<div id="page4" class="page">
+    <h2><a href="dashboard.html">Dashboard</a></h2>
+    <p>Welcome to your bunking assistant!</p>
+</div>
+
+<!-- Popup -->
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <p>From today, you are part of the elite squad that knows exactly when to show up... and when to vanish 😏</p>
+        <button onclick="closePopup()">Next</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<script src="dashboard.js"></script>
+</body>
+</html>

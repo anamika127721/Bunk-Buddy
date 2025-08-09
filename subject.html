@@ -1,0 +1,67 @@
+<!-- ==== PAGE 5 : SUBJECT TRACKER ==== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BunkBuddy Subjects</title>
+<link rel="stylesheet" href="dashboard.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<main class="subject-page">
+  <h2>Mark Bunk</h2>
+  <select id="daySelect">
+    <option value="">Select Day</option>
+    <option value="MON">MON</option>
+    <option value="TUE">TUE</option>
+    <option value="WED">WED</option>
+    <option value="THU">THU</option>
+    <option value="FRI">FRI</option>
+  </select>
+  <button onclick="showSubjectsForDay()">Show Subjects</button>
+
+  
+  <table id="subjectsTable">
+    <thead>
+      <tr>
+        <th>Period</th>
+        <th>Subject</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <button id="submitSubjectsBtn" styles="
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 12px 20px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+">Submit</button>
+
+</main>
+
+<script src="dashboard.js">
+    // your existing subject click code here...
+  
+    // === Save bunk percentage and redirect ===
+    document.addEventListener("DOMContentLoaded", () => {
+      const submitBtn = document.getElementById("submitSubjectsBtn");
+      if (submitBtn) {
+        submitBtn.addEventListener("click", () => {
+          localStorage.setItem("bunkPercentage", bunkPercentage);
+          window.location.href = "dashboard.html";
+        });
+      }
+    });
+  </script>
+</body>
+</html>

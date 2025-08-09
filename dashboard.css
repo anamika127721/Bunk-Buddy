@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    font-family: "Baloo 2", sans-serif;
+    background: linear-gradient(135deg, #cce7ff, #e6f3ff);
+    color: #003366;
+  }
+  
+  /* HEADER */
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #1e90ff, #4682b4);
+    color: white;
+    padding: 10px 20px;
+  }
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logo img {
+    width: 40px;
+  }
+  
+  /* MESSAGE BOX */
+  .message-box {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* STATS BOX */
+  .stats-box {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+  }
+  .bunk-percentage, .highest-bunk {
+    flex: 1;
+    background: #e6f3ff;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  }
+  #bunkTracker {
+    font-size: 2em;
+    font-weight: bold;
+    color: #1e90ff;
+  }
+  
+  /* DAYS BOX */
+  .days-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 20px;
+  }
+  .day-btn {
+    flex: 1;
+    padding: 10px;
+    background: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  .day-btn:hover {
+    background: #00bfff;
+    transform: scale(1.05);
+  }
+  
+  /* TIMETABLE DISPLAY */
+  .timetable-display {
+    background: white;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 15px;
+  }
+  
+  /* FUN ZONE */
+  .fun-zone {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 20px;
+  }
+  .fun-card {
+    background: #1e90ff;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  .fun-card:hover {
+    background: #00bfff;
+    transform: scale(1.05);
+  }
+  
+  /* BOTTOM NAV */
+  .bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    background: #4682b4;
+    color: white;
+    padding: 10px 0;
+  }
+  .nav-item {
+    cursor: pointer;
+  }
+  
+  /* PAGE 5 TABLE */
+  .subject-page {
+    padding: 20px;
+  }
+  #subjectsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  #subjectsTable th, #subjectsTable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  #subjectsTable td {
+    cursor: pointer;
+    color: red;
+  }
+  #subjectsTable td.present {
+    color: green;
+    font-weight: bold;
+  }
+
+   /* fun Zone */ 
+  header {
+      background: #ff6f61;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      border-radius: 0 0 15px 15px;
+  }
+  .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+  }
+  .card {
+      background: white;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+  }
+  .card:hover {
+      transform: translateY(-5px);
+  }
+  button {
+      background: #4ecca3;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.2s ease;
+  }
+  button:hover {
+      background: #3da98a;
+  }
+  .badges {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+  }
+  .badge {
+      padding: 8px 12px;
+      border-radius: 20px;
+      background: #ffefc3;
+      font-weight: bold;
+      font-size: 0.9rem;
+  }
+
+
+ 
+
+  
