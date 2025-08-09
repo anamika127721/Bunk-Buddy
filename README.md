@@ -1,26 +1,27 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# Bunk Buddy 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Code Nova]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Anamika K] - [NSS College of Engineering Palakkad]
+- Member 2: [Abhirami R] - [NSS College of Engineering Palakkad]
 
 ### Project Description
-[2-3 lines about what your project does]
+A sassy, overdramatic attendance advisor that calculates your safe bunk limit while roasting you for showing up and celebrating every class you skip. Packed with a fake excuse generator, bunk  forecasts, sarcastic mood analysis, and ridiculous achievements, it even rewards you for going below the safe limit with ironic badges and “motivational” chaos.
+
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+It addresses the “why stop at safe bunking?” problem for students who see attendance rules as mere suggestions. Instead of simply keeping you above the threshold, it boldly encourages—and hilariously celebrates—crossing it, turning reckless absenteeism into an art form with tracking, sarcastic praise, and achievement badges for your academic rebellion.
+
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+It provides a tongue-in-cheek “attendance management” system that doesn’t just track your classes — it actively tempts you to skip more. By combining precise bunk calculations with fake excuses, sarcastic alerts, and achievement rewards for even reckless absences, it transforms irresponsible attendance into a fully gamified (and oddly motivating) experience
 
 ## Technical Details
 ### Technologies/Components Used
