@@ -1,60 +1,46 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+#  🎯
+
+
+# Bunk Buddy 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Code Nova]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Anamika K] - [NSS College of Engineering Palakkad]
+- Member 2: [Abhirami R] - [NSS College of Engineering Palakkad]
 
 ### Project Description
-[2-3 lines about what your project does]
+A sassy, overdramatic attendance advisor that calculates your safe bunk limit while roasting you for showing up and celebrating every class you skip. Packed with a fake excuse generator, bunk  forecasts, sarcastic mood analysis, and ridiculous achievements, it even rewards you for going below the safe limit with ironic badges and “motivational” chaos.
+
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+It addresses the “why stop at safe bunking?” problem for students who see attendance rules as mere suggestions. Instead of simply keeping you above the threshold, it boldly encourages—and hilariously celebrates—crossing it, turning reckless absenteeism into an art form with tracking, sarcastic praise, and achievement badges for your academic rebellion.
+
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
-
+It provides a tongue-in-cheek “attendance management” system that doesn’t just track your classes — it actively tempts you to skip more. By combining precise bunk calculations with fake excuses, sarcastic alerts, and achievement rewards for even reckless absences, it transforms irresponsible attendance into a fully gamified (and oddly motivating) experience
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+-HTML, CSS, JAVASCRIPT
+- VS CODE, GIT HUB
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
-
-### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
-
-### Project Documentation
-For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="1920" height="1020" alt="Screenshot 2025-08-09 065657" src="https://github.com/user-attachments/assets/93f9374d-bd83-4b17-8b37-794099b4976f" />
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img width="1920" height="1020" alt="Screenshot 2025-08-09 065632" src="https://github.com/user-attachments/assets/c45be0d2-5b03-43fa-9428-0546f12d6d8f" />
+
+
+<img width="1920" height="1020" alt="Screenshot 2025-08-09 065509" src="https://github.com/user-attachments/assets/481d6e24-11b4-4be1-a48e-3c02d858f42c" />
+
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -79,13 +65,10 @@ For Hardware:
 ![Final](Add photo of final product here)
 *Explain the final build*
 
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+
 
 # Additional Demos
-[Add any extra demo materials/links]
+Vibsite link- https://anamika127721.github.io/Bunk-Buddy/
 
 ## Team Contributions
 - [Name 1]: [Specific contributions]
